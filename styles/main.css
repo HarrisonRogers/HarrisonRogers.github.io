@@ -7,4 +7,77 @@
   --dark-color: #333;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--dark-color);
+}
+
 /* Core styles */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* Navigation */
+#nav {
+  background-color: var(--third-color);
+  position: fixed;
+
+  width: 100%;
+}
+
+.main-nav {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.name a {
+  font-size: 2rem;
+  color: #000;
+}
+
+.name a span {
+  color: var(--primary-color);
+}
+
+.main-nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-nav ul li a {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-bottom: transparent 1px solid;
+  transition: 0.3s border-bottom ease;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+  border-bottom: var(--fourth-color) 1px solid;
+}
