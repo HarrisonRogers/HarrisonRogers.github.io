@@ -179,3 +179,36 @@ li {
   font-size: 1.1rem;
   margin-bottom: 10px;
 }
+
+/* Footer */
+#footer {
+  height: 150px;
+  background-color: var(--secondary-color);
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-content a {
+  margin-bottom: 15px;
+}
+
+.footer-content .btn {
+  background-color: var(--fourth-color);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.footer-content .btn i {
+  display: block;
+  text-align: center;
+}
+
+.footer-content span {
+  color: var(--primary-color);
+}
