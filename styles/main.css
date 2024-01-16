@@ -59,7 +59,7 @@ li {
 .nav {
   background-color: var(--third-color);
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   width: 100%;
 }
 
@@ -69,6 +69,7 @@ li {
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  z-index: 100;
 }
 
 .name a {
@@ -128,14 +129,11 @@ li {
 .content h1 {
   font-size: 4rem;
   font-family: 'Instrument Serif', serif;
+  z-index: 10;
 }
 
 .content h1 span {
   color: var(--third-color);
-}
-
-#showcase * {
-  z-index: 10;
 }
 
 /* Posts */
