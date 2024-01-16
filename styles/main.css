@@ -298,3 +298,26 @@ li {
     font-size: 2.5rem;
   }
 }
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 300px;
+  }
+
+  .title-content h1 {
+    font-size: 2rem;
+  }
+
+  .card img {
+    width: 190px;
+    max-height: 225px;
+  }
+
+  .card .profile {
+    width: 80%;
+  }
+
+  .card .profile p {
+    font-size: 0.9rem;
+  }
+}
