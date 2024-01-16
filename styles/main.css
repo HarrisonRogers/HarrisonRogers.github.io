@@ -198,10 +198,19 @@ li {
 .title-content h1 {
   font-size: 5rem;
   margin-top: 60px;
-  background-color: var(--fourth-color);
+  background: linear-gradient(
+    to bottom right,
+    var(--third-color) 0%,
+    var(--secondary-color) 50%,
+    var(--third-color) 100%
+  );
   color: var(--primary-color);
-  padding: 6rem 3rem;
-  border-radius: 50%;
+  padding: 4rem 2rem;
+  border-radius: 10px;
+}
+
+#tech .card {
+  margin: 20px 0 0 0;
 }
 
 /* Footer */
@@ -224,13 +233,8 @@ li {
 
 .footer-content .btn {
   background-color: var(--fourth-color);
-  padding: 5px 20px;
-  border-radius: 10px;
-}
-
-.footer-content .btn i {
-  display: block;
-  text-align: center;
+  padding: 5px 10px;
+  border-radius: 50%;
 }
 
 .footer-content span {
