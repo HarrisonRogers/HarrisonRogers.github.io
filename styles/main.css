@@ -99,6 +99,8 @@ li {
   border-bottom: var(--fourth-color) 1px solid;
 }
 
+/* Index.html */
+
 /* Showcase */
 
 #showcase {
@@ -178,6 +180,28 @@ li {
 .card p {
   font-size: 1.1rem;
   margin-bottom: 10px;
+}
+
+/* Tech */
+#title {
+  height: 50vh;
+}
+
+.title-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 110%;
+  border-bottom: var(--fourth-color) 1px solid;
+}
+
+.title-content h1 {
+  font-size: 5rem;
+  margin-top: 60px;
+  background-color: var(--fourth-color);
+  color: var(--primary-color);
+  padding: 6rem 3rem;
+  border-radius: 50%;
 }
 
 /* Footer */
