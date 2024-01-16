@@ -19,6 +19,7 @@ body {
   background-color: var(--primary-color);
   color: var(--dark-color);
   font-family: 'Instrument Serif', serif;
+  letter-spacing: 0.35px;
 }
 
 html {
@@ -27,9 +28,10 @@ html {
 
 /* Core styles */
 
-.grid-2 {
+.grid-3 {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .container {
@@ -45,8 +47,16 @@ li {
   list-style: none;
 }
 
+.btn {
+  background-color: var(--third-color);
+  color: var(--primary-color);
+  padding: 5px 15px;
+  font-size: 1.1rem;
+  border-radius: 50px;
+}
+
 /* Navigation */
-#nav {
+.nav {
   background-color: var(--third-color);
   position: fixed;
   z-index: 1;
@@ -94,7 +104,7 @@ li {
   position: relative;
   background: url(/imgs/IMG_4255.jpg) no-repeat center center/cover;
   color: var(--primary-color);
-  height: 80vh;
+  height: 90vh;
 }
 
 #showcase::before {
@@ -126,4 +136,48 @@ li {
 
 #showcase * {
   z-index: 10;
+}
+
+/* Posts */
+#posts {
+  margin: 70px 0;
+}
+
+.card {
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card img {
+  width: 200px;
+  max-height: 250px;
+}
+
+.card .profile {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.card .profile i {
+  margin-right: 5px;
+  color: var(--fourth-color);
+}
+
+.card a h1 {
+  color: var(--fourth-color);
+  margin: 5px 0 15px 0;
+  font-size: 3rem;
+}
+
+.card p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
 }
