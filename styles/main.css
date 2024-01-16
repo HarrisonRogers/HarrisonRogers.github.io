@@ -213,6 +213,20 @@ li {
   margin: 20px 0 0 0;
 }
 
+/* Core */
+#core .title-content h1 {
+  background: linear-gradient(
+    to bottom right,
+    var(--fourth-color) 0%,
+    var(--third-color) 50%,
+    var(--fourth-color) 100%
+  );
+}
+
+#core .card {
+  margin: 20px 0 0 0;
+}
+
 /* Footer */
 #footer {
   height: 150px;
