@@ -254,3 +254,47 @@ li {
 .footer-content span {
   color: var(--primary-color);
 }
+
+/* Media Quires */
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card .profile {
+    width: 60%;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .main-nav {
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 5px;
+  }
+
+  .main-nav ul li a {
+    border-bottom: none;
+    transition: 0.3s color ease;
+  }
+
+  .main-nav ul li a:hover,
+  .main-nav ul li a.active {
+    color: var(--fourth-color);
+    border-bottom: none;
+  }
+
+  /* Tech */
+  .title-content h1 {
+    font-size: 2.5rem;
+  }
+}
