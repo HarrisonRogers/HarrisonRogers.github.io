@@ -55,6 +55,10 @@ li {
   border-radius: 50px;
 }
 
+.btn:active {
+  transform: scale(0.98);
+}
+
 /* Navigation */
 .nav {
   background-color: var(--third-color);
