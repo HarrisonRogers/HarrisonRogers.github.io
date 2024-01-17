@@ -6,4 +6,9 @@
   height: 500px;
 }
 
-/* Next Page */
+/* learning-plan.html */
+.learning-plan #showcase {
+  background: url(/imgs/learning-plan.avif) no-repeat center center/cover;
+  margin: 20px 0;
+  height: 500px;
+}
