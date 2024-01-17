@@ -1,0 +1,9 @@
+/* html-css.html */
+.html-css #showcase {
+  background: url(/imgs/padding-margin-border.webp) no-repeat center
+    center/cover;
+  margin: 20px 0;
+  height: 500px;
+}
+
+/* Next Page */
