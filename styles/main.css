@@ -315,6 +315,16 @@ li {
 
 /* Media Quires */
 
+@media (max-width: 1024px) {
+  .container {
+    max-width: 900px;
+  }
+
+  .html-css .p-content img {
+    max-width: 850px;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
     max-width: 600px;
@@ -326,6 +336,12 @@ li {
 
   .card .profile {
     width: 60%;
+  }
+
+  #blog-post .p-content {
+    & img {
+      display: none;
+    }
   }
 }
 
