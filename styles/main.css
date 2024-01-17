@@ -175,7 +175,8 @@ li {
 .card a h1 {
   color: var(--fourth-color);
   margin: 5px 0 15px 0;
-  font-size: 3rem;
+  font-size: 2.7rem;
+  text-align: center;
 }
 
 .card p {
