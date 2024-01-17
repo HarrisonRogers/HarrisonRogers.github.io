@@ -12,3 +12,10 @@
   margin: 20px 0;
   height: 500px;
 }
+
+/* identity-values.html */
+.identity-values #showcase {
+  background: url(/imgs/idntity.jpeg) no-repeat center center/cover;
+  margin: 20px 0;
+  height: 500px;
+}
