@@ -252,6 +252,10 @@ li {
     color: #cbcbcb;
   }
 
+  & h1 {
+    margin-bottom: 20px;
+  }
+
   .p-content {
     margin: 50px 0;
   }
