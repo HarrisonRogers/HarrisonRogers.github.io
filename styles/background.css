@@ -19,3 +19,11 @@
   margin: 20px 0;
   height: 500px;
 }
+
+/* emotional-intelligence.html */
+.emotional-intelligence #showcase {
+  background: url(/imgs/emotional-intelligence.jpeg) no-repeat center
+    center/cover;
+  margin: 20px 0;
+  height: 500px;
+}
