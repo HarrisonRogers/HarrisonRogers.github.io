@@ -34,11 +34,93 @@
       <div class="container">
         <div id="showcase">
           <div class="content">
-            <h1>Learning-Plan</h1>
-            <h3>My learning plan for Dev Academy</h3>
+            <h1>JavaScript DOM</h1>
+            <h3>
+              what is JavaScript(JS)? What is the DOM? and how do they relate
+            </h3>
           </div>
         </div>
-        <div class="p-content"></div>
+        <div class="p-content">
+          <h1>
+            <strong>Analogy of JS and its relationship to HTML and CSS</strong>
+          </h1>
+          <p>
+            Think of a website like a house: HTML is the structure, CSS is the
+            interior design, and JavaScript is the electrics. The HTML creates a
+            light switch and CSS makes it look appealing but then JavaScript
+            makes it interactive and function. Each language plays a crucial
+            role in creating a complete and engaging user experience.
+          </p>
+          <h1><strong>Control Flow</strong></h1>
+          <p>
+            Control flow in JavaScript is done using if-else statements, which
+            guide the program's execution based on conditions. For Example...
+          </p>
+          <img src="/imgs/js-dom/if else.png" alt="if-else img" />
+          <p>
+            What this code is executing is if the hasIngredients = true then the
+            <strong>if</strong> code will output
+            <br />
+            'Gather ingredients'
+            <br />
+            'Spread mayonnaise on bread'
+            <br />
+            etc...
+            <br />
+            Where if the variable hasIngredients = false the
+            <strong>else</strong> statement would run
+            <br />
+            'Go buy ingredients first!'
+          </p>
+          <h1><strong>Loops</strong></h1>
+          <p>
+            Loops in JavaScript, such as for or while loops, enable repetitive
+            execution of a block of code.
+            <br />
+            <small>We will use a for loop as an example...</small>
+          </p>
+          <img src="/imgs/js-dom/for.png" alt="for loops" />
+          <p>
+            The variable slicesOfBread = 3 - meaning we have 3 slices of bread.
+            <br />
+            There are 3 parts inside the brackets of the for loop which are
+            separated by a semicolon ; The first part in the bracket is called
+            the initialization (let i = 0;) where we tell the computer we want
+            to start our for loop at 0 and that 'i' is basically our loop
+            control variable.
+          </p>
+          <p>
+            The second part of of the bracket is called the condition. This
+            condition takes in a number or the length or an array. For this
+            example we have 3 slices of bread so we put i < slicesOfBread,
+            meaning i < 3 so that the loop will only execute 3 times. if we
+            change slicesOfBread = 5 this means the loop will now execute 5
+            times which is why variables are important rather than hard coding
+            the number in. If we didn't specify how many times we want the for
+            loop to run it would infinitely run and most likely crash the
+            computer :(
+          </p>
+          <p>
+            The third part of the bracket is called the Iteration Expression.
+            This controls how the variable changes after each loop. i++ means to
+            increment by one after a loop has completed, for example...
+            <img
+              src="/imgs/js-dom/for-execution.png"
+              alt="Executing for loop"
+            />
+            the text below the code is the outcome of the code being run. We
+            console log "Spread peanut butter on slice " + (i + 1); You can see
+            that the code has been run 3 times which is what we specified in the
+            condition part of the for loop bracket. But how has the number 1, 2
+            and 3 been put beside the text, first iteration of this loop i = 0
+            but then after the loop has completed and starts its second loop i =
+            1 since we incremented it (i++) by one every loop. Usually we do i +
+            1 if we are counting because the index starts from 0 so the first
+            loop would be "Spread peanut butter on slice 0" which we don't want.
+            We would only increment by just i if we were to do an array since
+            the index of an array starts from 0.
+          </p>
+        </div>
 
         <div class="profile">
           <p><i class="fa-solid fa-user"></i> Harrison Rogers</p>
