@@ -48,3 +48,11 @@
   margin: 20px 0;
   height: 500px;
 }
+
+/* problem-solving.html */
+.problem-solving #showcase {
+  background: url(/imgs/Creative-Problem-Solving-Process.jpeg) no-repeat center
+    center/cover;
+  margin: 20px 0;
+  height: 500px;
+}
