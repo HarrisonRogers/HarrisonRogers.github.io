@@ -56,3 +56,10 @@
   margin: 20px 0;
   height: 500px;
 }
+
+/* foundations-reflection.html */
+.foundations-reflection #showcase {
+  background: url(/imgs/timeline.png) no-repeat center center/cover;
+  margin: 20px 0;
+  height: 500px;
+}
